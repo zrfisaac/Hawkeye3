@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings version="1.0.0">
+  <hawkeye>
+    <layouts></layouts>
+    <configuration></configuration>
+  </hawkeye>
+  <plugins>
+    <snapshot></snapshot>
+    <reflector></reflector>
+  </plugins>
+</settings>

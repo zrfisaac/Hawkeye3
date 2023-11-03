@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{854D919B-FABD-4D9B-ADAF-CA94ECAAD70E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hawkeye</RootNamespace>
+    <AssemblyName>Hawkeye.Api</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Build\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\Build\Debug\Hawkeye.Api.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Build\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\Build\Release\Hawkeye.Api.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\lib\LinqBridge\LinqBridge-1.3.cs">
+      <Link>LinqBridge-1.3.cs</Link>
+    </Compile>
+    <Compile Include="..\CommonAssemblyInfo.cs">
+      <Link>Properties\CommonAssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="ComponentModel\ServiceNotFoundException.cs" />
+    <Compile Include="Configuration\ISettingsStore.cs" />
+    <Compile Include="enums.cs" />
+    <Compile Include="Extensibility\BaseCommandPlugin.cs" />
+    <Compile Include="Extensibility\BasePlugin.cs" />
+    <Compile Include="Extensibility\ICommandPlugin.cs" />
+    <Compile Include="extensions\DateTimeExtensions.cs" />
+    <Compile Include="extensions\ExceptionExtensions.cs" />
+    <Compile Include="extensions\HostExtensions.cs" />
+    <Compile Include="extensions\ServiceExtensions.cs" />
+    <Compile Include="IHawkeyeApplicationInfo.cs" />
+    <Compile Include="IHawkeyeHost.cs" />
+    <Compile Include="Extensibility\IPlugin.cs" />
+    <Compile Include="Extensibility\IPluginDescriptor.cs" />
+    <Compile Include="Logging\BaseLogService.cs" />
+    <Compile Include="Logging\interfaces.cs" />
+    <Compile Include="Logging\LoggingExtensions.cs" />
+    <Compile Include="Logging\LogLevel.cs" />
+    <Compile Include="oldHawkeyeApi_TODO\IDynamicSubclass.cs" />
+    <Compile Include="oldHawkeyeApi_TODO\IHawkeyeApi.cs" />
+    <Compile Include="oldHawkeyeApi_TODO\IHawkeyeEditor.cs" />
+    <Compile Include="oldHawkeyeApi_TODO\IPlugin.cs" />
+    <Compile Include="IControlInfo.cs" />
+    <Compile Include="IModuleInfo.cs" />
+    <Compile Include="PluginKind.cs" />
+    <Compile Include="Reflection\MethodAccessor.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="oldHawkeyeApi_TODO\Reflection\accessors.cs" />
+    <Compile Include="oldHawkeyeApi_TODO\Reflection\IReflectionApi.cs" />
+    <Compile Include="IWindowInfo.cs" />
+    <Compile Include="Reflection\FieldAccessor.cs" />
+    <Compile Include="Reflection\PropertyAccessor.cs" />
+    <Compile Include="UI\IHawkeyeUI.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
