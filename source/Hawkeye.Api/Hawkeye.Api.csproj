@@ -39,7 +39,7 @@
     <Reference Include="System.XML" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\lib\LinqBridge\LinqBridge-1.3.cs">
+    <Compile Include="..\..\library\LinqBridge\LinqBridge-1.3.cs">
       <Link>LinqBridge-1.3.cs</Link>
     </Compile>
     <Compile Include="..\CommonAssemblyInfo.cs">

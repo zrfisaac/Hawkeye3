@@ -1,7 +1,47 @@
+# [ zrfisaac ]
+
+# [ about ]
+# - author : Isaac Santana
+# . - email : zrfisaac@gmail.com
+# . - site : zrfisaac.github.io
+
+# [ gitignore ]
+
+# : - binary
+*.bpl
+*.dll
+*.dmg
+*.exe
+*.idx
+*.iso
+*.ldf
+*.mdf
+*.mp4
+*.msi
+*.rar
+*.swf
+*.tpz
+*.vbox-extpack
+*.vob
+*.wav
+*.zip
+.vs/
+bin/
+obj/
+
+# : - zrfisaac
+*.classified.*
+*.classified/
+*/classified/
+*classified/
+_*
+zd/
+
+# : -
 # Specific to this project
-/src/Intermediate
-/src/Build
-/src/Plugins/Build
+/source/Intermediate
+/source/Build
+/source/Plugins/Build
 
 #
 # Grabbed from https://github.com/github/gitignore/blob/master/CSharp.gitignore

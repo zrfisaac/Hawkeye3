@@ -1,12 +1,22 @@
-> ## Important notice
->
-> **From 2023/02/11, this repository is archived. If you want to contribute or have issues, you are welcome to head over to Hawkeye's new home: <https://github.com/zrfisaac/Hawkeye3>**
+[//]: # (# [ zrfisaac ])
 
-# Hawkeye 2
+[//]: # (# [ about ])
+[//]: # (# - author : Isaac Santana)
+[//]: # (# . - email : zrfisaac@gmail.com)
+[//]: # (# . - site : zrfisaac.github.io)
 
-## Foreword
+[//]: # (# [ markdown ])
 
-Starting with Version 2, Hawkeye source code is hosted on github: <https://github.com/odalet/Hawkeye2>, though the project's offical home remains the Codeplex site: <http://hawkeye.codeplex.com/>
+[//]: # (# - language)
+<!--[![](https://img.shields.io/badge/português--f9c22b?style=for-the-badge)]([README.pt-BR.md](README.en.md))-->
+
+[//]: # (# - title)
+
+# <img src="Resources\Program Files (x86)\Common Files\Borland Shared\BDE\bdeadmin.ico" alt="Logo" width="32" height="32"> BDE [![](https://img.shields.io/badge/release-5.2.0.2-blue?style=flat-square&logoColor=white)](https://github.com/zrfisaac/BDE/releases/download/d20230925/BDE.5.2.0.2.exe) [![](https://img.shields.io/badge/patreon-$-ff69b4?logo=patreon&style=flat-square&logoColor=white)](https://www.patreon.com/zrfisaac) [![](https://img.shields.io/badge/ko--fi-$-ff69b4?logo=kofi&style=flat-square&logoColor=white)](https://ko-fi.com/zrfisaac)
+
+[![](https://img.shields.io/badge/-DOWNLOAD-239063?style=for-the-badge&logo=windows95&logoColor=white)](https://github.com/zrfisaac/BDE/releases/download/d20230925/BDE.5.2.0.2.exe)
+
+<!--<img src="Pictures\Windows.png">-->
 
 ## Project Description
 
