@@ -12,7 +12,7 @@
 
 [//]: # (# - title)
 
-# <img src="picture\Laure\hawkeye.jpg" alt="Logo" width="32" height="32"> Hawkeye3 [![](https://github.com/zrfisaac/Hawkeye3/releases/download/v3.2.0.0/Hawkeye3.3.2.0.0.exe) [![](https://img.shields.io/badge/patreon-$-ff69b4?logo=patreon&style=flat-square&logoColor=white)](https://www.patreon.com/zrfisaac) [![](https://img.shields.io/badge/ko--fi-$-ff69b4?logo=kofi&style=flat-square&logoColor=white)](https://ko-fi.com/zrfisaac)
+# <img src="picture\Laure\hawkeye.jpg" alt="Logo" width="32" height="32"> Hawkeye3 [![](https://img.shields.io/badge/patreon-$-ff69b4?logo=patreon&style=flat-square&logoColor=white)](https://www.patreon.com/zrfisaac) [![](https://img.shields.io/badge/ko--fi-$-ff69b4?logo=kofi&style=flat-square&logoColor=white)](https://ko-fi.com/zrfisaac)
 
 [![](https://img.shields.io/badge/-DOWNLOAD-239063?style=for-the-badge&logo=windows95&logoColor=white)](https://github.com/zrfisaac/Hawkeye3/releases/download/v3.2.0.0/Hawkeye3.3.2.0.0.exe)
 
